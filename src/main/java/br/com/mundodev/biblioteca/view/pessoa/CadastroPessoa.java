@@ -7,6 +7,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import br.com.mundodev.biblioteca.config.BeanProvider;
@@ -14,6 +16,8 @@ import br.com.mundodev.biblioteca.model.Pessoa;
 import br.com.mundodev.biblioteca.repository.PessoaRepository;
 
 public class CadastroPessoa extends JPanel {
+	
+	private static Logger logger = LoggerFactory.getLogger(CadastroPessoa.class);
 	
 	private static final long serialVersionUID = 4306661372624836944L;
 	

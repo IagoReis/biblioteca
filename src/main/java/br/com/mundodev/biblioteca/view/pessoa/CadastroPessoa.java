@@ -9,16 +9,11 @@ import javax.swing.JTextField;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.sun.org.slf4j.internal.LoggerFactory;
-
 import br.com.mundodev.biblioteca.config.BeanProvider;
 import br.com.mundodev.biblioteca.model.Pessoa;
 import br.com.mundodev.biblioteca.repository.PessoaRepository;
-import ch.qos.logback.classic.Logger;
 
 public class CadastroPessoa extends JPanel {
-	
-	final static Logger logger = LoggerFactory.getLogger(CadastroPessoa.class);
 	
 	private static final long serialVersionUID = 4306661372624836944L;
 	
